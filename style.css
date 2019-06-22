@@ -2,7 +2,18 @@
     color: #9b59b6;
 }
 
-.mycolorbg {
-    background-color: #9b59b6;
+.bt {
+    width: 100%;
+    padding: 8px;
+    background-color: #c276e0;
     color: white;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+
+}
+
+.bt:hover {
+    background-color: #9b59b6;
+    transition: 0.2s ease;
 }
