@@ -84,7 +84,7 @@ class UI {
         document.querySelector('#isbn').value = '';
     }
 }
-//Store Class:Handles Storage
+
 //Event:Display Books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 //Event:Add a Book
@@ -97,7 +97,7 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
     const isbn = document.querySelector('#isbn').value;
 
     //Validate
-    if (title.value === '' || author.value === '' || isbn === '') {
+    if (title === '' || author === '' || isbn === '') {
         UI.showAlert('Please fill in all fields', 'danger');
     } else {
 
