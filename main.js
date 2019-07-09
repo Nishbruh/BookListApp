@@ -72,7 +72,7 @@ class UI {
         const div = document.createElement('div');
         div.className = `alert alert-${className}`
         div.appendChild(document.createTextNode(message));
-        const container = document.querySelector('.container');
+        const container = document.querySelector('.container-mine');
         const form = document.querySelector('#book-form');
         container.insertBefore(div, form);
         //Vanish in 3 secs
